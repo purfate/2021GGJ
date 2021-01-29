@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
     /// <returns></returns>
     IEnumerator ScoreAddIEnum()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         this.Score += this.ScoreAdd;
         if (this.Score <= 0)
         {
